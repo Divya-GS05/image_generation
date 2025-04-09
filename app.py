@@ -4,7 +4,7 @@ import base64
 from io import BytesIO
 from PIL import Image
 
-GOOGLE_API_KEY = "AIzaSyCcp7Rr0Li2Jam-v2WOEDUyAk8vDoCuYQk"
+GOOGLE_API_KEY = "AIzaSyCV1mc-4VltiuFz3EyPEgwL0rvZW4YbHy8"
 genai.configure(api_key=GOOGLE_API_KEY)  
 
 def image_to_tamil_poem(image):
